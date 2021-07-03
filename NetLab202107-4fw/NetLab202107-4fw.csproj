@@ -117,6 +117,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="CsvRead.aspx" />
+    <Content Include="DbReadLinq.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -190,6 +191,13 @@
       <DependentUpon>CsvRead.aspx</DependentUpon>
     </Compile>
     <Compile Include="data.cs" />
+    <Compile Include="DbReadLinq.aspx.cs">
+      <DependentUpon>DbReadLinq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DbReadLinq.aspx.designer.cs">
+      <DependentUpon>DbReadLinq.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
